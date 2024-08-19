@@ -19,7 +19,7 @@ fof-oauth:
     providers:
       minecraft: Minecraft
 
-gbcl-oauth-minecraft:
+gbcl-minecraft-oauth:
   forum:
     error:
       profile_does_not_exist: "无法找到你的 Minecraft 游戏档案，你有正版吗?"
