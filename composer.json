@@ -1,0 +1,54 @@
+{
+    "name": "gbcl/minecraft-oauth",
+    "description": "Log in to your Flarum forum with Minecraft",
+    "keywords": [
+        "flarum", "minecraft", "sso", "oauth", "login"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "support": {
+        "source": "https://example.git/"
+    },
+    "require": {
+        "php": "^8.0",
+        "flarum/core": "^1.8.0",
+        "league/oauth2-client": "^2.7",
+        "fof/components": "^1.0",
+        "ext-json": "*",
+        "laravel/helpers": "^1.7",
+        "fof/oauth": "^1.6",
+        "stevenmaguire/oauth2-microsoft": "^2.2",
+        "firebase/php-jwt": "^6.10",
+        "ext-openssl": "*"
+    },
+    "authors": [
+        {
+            "name": "GBCLStudio",
+            "email": "gbclstudio@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GBCLStudio\\OAuthMinecraft\\": "src/",
+            "Arffornia\\MinecraftOauth\\": "lib/MinecraftOAuth",
+            "Stevenmaguire\\OAuth2\\Client\\": "lib/MicrosoftOAuth"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Log In With Minecraft",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-sign-in-alt",
+                "backgroundColor": "#0072e3",
+                "color": "#fff"
+            }
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
