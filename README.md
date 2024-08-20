@@ -1,27 +1,27 @@
 # Log In with Minecraft(Microsoft)
 
-![extiverse](https://extiverse.com/extension/gbcl/flarum-minecraft-oauth/open-graph-image)
+![extiverse](https://extiverse.com/extension/gbcl/minecraft-oauth/open-graph-image)
 
 > Minecraft Login Intergration for Flarum, a extend provider based on FoF/OAuth.
 
 ## Install
 
 ```sh
-composer require gbcl/flarum-minecraft-oauth:"*"
+composer require gbcl/minecraft-oauth:"*"
 php flarum cache:clear
 ```
 
 ## Update
 
 ```sh
-composer update gbcl/flarum-minecraft-oauth
+composer update gbcl/minecraft-oauth
 php flarum cache:clear
 ```
 
 ## Remove
 
 ```sh
-composer remove gbcl/flarum-minecraft-oauth
+composer remove gbcl/minecraft-oauth
 php flarum cache:clear
 ```
 
